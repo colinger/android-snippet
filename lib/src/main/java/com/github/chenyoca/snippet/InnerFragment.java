@@ -1,4 +1,4 @@
-package gmail.chenyoca.androidsnippet;
+package com.github.chenyoca.snippet;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -39,11 +39,7 @@ public abstract class InnerFragment extends Fragment {
 		layoutResourceId = getLayoutResId();
 	}
 
-	/**
-	 * 获取布局文件资源ID
-	 * @return 布局文件资源ID
-	 */
-	private int getLayoutResId(){
+	int getLayoutResId(){
 		Bundle args = getArguments();
 		if( args != null ){
 			return args.getInt(KEY_LAYOUT_RES);

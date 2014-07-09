@@ -1,4 +1,4 @@
-package gmail.chenyoca.androidsnippet;
+package com.github.chenyoca.snippet;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

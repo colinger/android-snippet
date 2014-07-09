@@ -1,4 +1,4 @@
-package gmail.chenyoca.androidsnippet;
+package com.github.chenyoca.snippet;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
