@@ -1,10 +1,9 @@
-package com.github.chenyoca.snippet;
+package com.github.chenyoca.snippet.adapters;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 
 import java.util.List;
 
@@ -21,7 +20,7 @@ public class SimplePagerAdapter<T> extends PagerAdapter {
 
 	/**
 	 * 创建Adapter，需要给定View创建接口。
-	 * @param inflater LayoutInflater，{@link com.github.chenyoca.snippet.ViewCreator}动态载入XML视图布局时，使用此引用。
+	 * @param inflater LayoutInflater，{@link ViewCreator}动态载入XML视图布局时，使用此引用。
 	 * @param delegate Adapter Cell视图的构建过程，由此接口实现。
 	 */
 	public SimplePagerAdapter(LayoutInflater inflater, ViewCreator<T> delegate){

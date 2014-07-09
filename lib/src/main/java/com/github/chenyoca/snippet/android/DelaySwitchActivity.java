@@ -1,4 +1,4 @@
-package com.github.chenyoca.snippet;
+package com.github.chenyoca.snippet.android;
 
 import android.app.Activity;
 import android.content.Intent;
