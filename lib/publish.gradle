@@ -2,7 +2,7 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 
 group = 'com.github.chenyoca'
-version = '0.1-SNAPSHOT'
+version = '0.1'
 
 ext.UsingSonatype = hasProperty('UsingSonatype')
 ext.isReleaseVersion = !version.endsWith("-SNAPSHOT")
