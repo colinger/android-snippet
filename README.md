@@ -50,3 +50,44 @@
 #### 使用
 
 继承即可
+
+----
+
+## SimpleAdapter
+
+#### 作用
+
+经常用于ListView、GridView等，通过指定ViewCreator来创建子视图，简化ListView等组合的使用。
+
+#### 使用
+
+```java
+
+    ViewCreator<ValueObject> viewCreator = new ViewCreator(){
+        ...
+    };
+
+    SimpleAdapter<ValueObject> adapter = new SimpleAdapter(activity.getLayoutInflater(), viewCreator);
+
+    ListView listView = ....
+
+    listView.setAdapter(adapter);
+
+    List<ValueObject> dataSet = ...
+
+    adapter.update(dataSet);
+    adapter.notifyDataSetChanged();
+
+```
+
+----
+
+## SimplePagerAdapter
+
+#### 作用
+
+用于ViewPager，同SimpleAdapter
+
+#### 使用
+
+同SimpleAdapter
