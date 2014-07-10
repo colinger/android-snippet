@@ -4,6 +4,23 @@
 
 这是从我工作的项目中分离出来的，复用率非常高的代码。
 
+## Dependency
+
+ allprojects {
+     repositories {
+         // !!!! ADD THIS !!!!
+         maven{ url 'http://oss.sonatype.org/content/groups/public/' }
+     }
+ }
+
+
+ dependencies {
+     compile 'com.github.chenyoca:android-snippet:1.1'
+ }
+
+
+----
+
 ## DelaySwitchActivity
 
 #### 作用

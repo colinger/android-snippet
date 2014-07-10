@@ -9,6 +9,7 @@ import android.view.ViewGroup;
  * Created by CHENYOCA
  * chenyoca@gmail.com
  * 2014-07-09
+ * ViewCreator for Cursor adapter
  */
 public interface ViewCreator1 {
 
