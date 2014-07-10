@@ -23,4 +23,4 @@ dependencies {
     compile 'com.android.support:support-v4:19.1.0'
 }
 
-apply from: 'publish.gradle'
+apply from: 'https://raw.githubusercontent.com/chenyoca/gradle_publish/master/publish_aar.gradle'
