@@ -53,6 +53,7 @@ Add dependency
 
     }
 
+<<<<<<< HEAD
 ```
 
 ----
@@ -300,3 +301,6 @@ Library需要添加Android support v4 jar包。
 ## 开源协议 Apache License 2.0
 
 The code of this project is released under the Apache License 2.0, see [LICENSE](https://github.com/chenyoca/async-http-connection-core/blob/master/LICENSE)
+=======
+```
+>>>>>>> c15cede0d1f8aa5935c661fd17905374ea7df77b
