@@ -24,7 +24,7 @@ Add dependency
 ```groovy
 
     dependencies {
-        compile 'com.github.chenyoca:android-snippet:1.1'
+        compile 'com.github.chenyoca:android-snippet:1.2-SNAPSHOT@aar'
     }
 
 ```
