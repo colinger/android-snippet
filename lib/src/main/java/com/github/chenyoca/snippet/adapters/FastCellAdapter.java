@@ -29,11 +29,30 @@ public class FastCellAdapter<T> extends BaseAdapter{
         ViewCreator2.ViewHolder holder;
         if (convertView == null) {
             holder = viewCreator.createHolder(layoutInflater, data);
+            convertView = holder.parent;
+            convertView.setTag(holder);
         } else {
-            holder = (ViewCreator2.ViewHolder)convertView.getTag();
+            holder = (ViewCreator2.ViewHolder) convertView.getTag();
         }
         viewCreator.bind(holder, position, data);
         return convertView;
+    }
+
+    /**
+     * 更新Adapter的数据集。
+     * @param data 数据集
+     */
+    public void update(List<T> data){
+        dataSetReference = data;
+    }
+
+    /**
+     * 清空Adapter的数据集
+     */
+    public void clear(){
+        if(dataSetReference != null){
+            dataSetReference.clear();
+        }
     }
 
     @Override
