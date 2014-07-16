@@ -54,7 +54,10 @@ public abstract class InnerFragment extends Fragment {
 			throw new IllegalArgumentException("Illegal LayoutResourceId !!!");
 		}
 		contentView = inflater.inflate(layoutResourceId, null);
+        onViewCreated(contentView);
 		return contentView;
 	}
+
+    protected void onViewCreated(View contentView){}
 
 }

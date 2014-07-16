@@ -12,7 +12,7 @@ import android.content.Intent;
  * <li><b>date : </b>		2012-8-10 下午9:54:03		</li>
  * </ul>
  */
-public class IntentUtility {
+public class IntentUtil {
 
 	/**
 	 * </br><b>description :</b>将值设置到Intent里

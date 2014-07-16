@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
  * date   : 2013-4-7
  * 反射工具类
  */
-public class ReflectUtility {
+public class ReflectUtil {
 
 	/**
 	 * 获取指定字段名的字段对象

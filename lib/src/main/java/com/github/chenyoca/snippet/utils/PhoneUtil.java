@@ -12,7 +12,7 @@ import android.widget.Toast;
  * date    : 2012-7-21
  * 电话工具类
  */
-public class PhoneUtility {
+public class PhoneUtil {
 
 	/**
 	 * 直接拨打电话

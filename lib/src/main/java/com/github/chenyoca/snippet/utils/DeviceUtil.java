@@ -12,7 +12,7 @@ import android.telephony.TelephonyManager;
  * Time: 20:54
  * 获取设备ID
  */
-public class DeviceIdentify {
+public class DeviceUtil {
 
     /**
      * 获取IMEI码。平板设备没有这个码，需要 READ_PHONE_STATE 权限
