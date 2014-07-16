@@ -7,7 +7,7 @@ import java.io.UnsupportedEncodingException;
  * @date   : 2012-10-23
  * @desc   : Base64加密解密工具
  */
-public class Base64 {
+public class Base64Util {
 	
 	private static final char[] ENCODE_CHARS = new char[] { 'A', 'B', 'C', 'D',
 			'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q',

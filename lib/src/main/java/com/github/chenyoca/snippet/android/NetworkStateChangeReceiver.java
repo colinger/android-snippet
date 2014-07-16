@@ -1,4 +1,4 @@
-package com.github.chenyoca.snippet.utils;
+package com.github.chenyoca.snippet.android;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.util.Log;
+
+import com.github.chenyoca.snippet.utils.NetworkUtil;
 
 public class NetworkStateChangeReceiver extends BroadcastReceiver {
   
@@ -25,7 +27,7 @@ public class NetworkStateChangeReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.e(TAG, "网络状态发生改变");
-        boolean isNetworkActive = NetworkUtility.isAvailable(context);
+        boolean isNetworkActive = NetworkUtil.isAvailable(context);
         if(listener == null) return;
         listener.onChanged(isNetworkActive);
     }

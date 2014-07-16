@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
  * date   : 2012-10-23
  * HASH加密工具
  */
-public class HashEncrypt {
+public class EncryptUtil {
 	
 	/**
 	 * 加密类型

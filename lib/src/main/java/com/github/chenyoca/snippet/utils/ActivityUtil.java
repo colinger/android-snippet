@@ -16,7 +16,7 @@ import android.widget.Toast;
  * date    : 2012-11-13
  * Activity帮助器类
  */
-public final class ActivityUtility {
+public final class ActivityUtil {
 
 	/**
 	 * 切换全屏状态。
@@ -158,7 +158,7 @@ public final class ActivityUtility {
 		Intent intent = new Intent(activity,target);
 		if( null != params ){
 			for(Params.NameValue item : params.nameValueArray){
-				IntentUtility.setValueToIntent(intent, item.name, item.value);
+				IntentUtil.setValueToIntent(intent, item.name, item.value);
 			}
 		}
 		switchTo(activity, intent);
@@ -175,7 +175,7 @@ public final class ActivityUtility {
 		Intent intent = new Intent(activity,targetActivity);
 		if( null != params ){
 			for(Params.NameValue item : params.nameValueArray){
-				IntentUtility.setValueToIntent(intent, item.name, item.value);
+				IntentUtil.setValueToIntent(intent, item.name, item.value);
 			}
 		}
 		activity.startActivityForResult(intent, requestCode);

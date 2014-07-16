@@ -7,7 +7,7 @@ import java.util.Random;
  * date   : 2012-11-14
  * 随机数据生成工具
  */
-public class RandomUtility {
+public class RandomUtil {
 
 	/**
 	 * 生成指定长度的随机字符内容

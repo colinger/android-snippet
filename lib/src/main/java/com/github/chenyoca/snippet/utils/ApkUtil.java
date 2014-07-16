@@ -15,7 +15,7 @@ import android.net.Uri;
  * date    : 2012-8-11
  * APK相关功能帮助器类
  */
-public class ApkUtility {
+public class ApkUtil {
 
 	/**
 	 * 判断APK包是否已经安装
